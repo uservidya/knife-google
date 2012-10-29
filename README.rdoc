@@ -9,15 +9,14 @@ Be sure you are running the latest version Chef. Versions earlier than 0.10.0 do
 
     gem install chef
 
-This plugin depends on the gcutil CLI utility
-    pip install https://dl.google.com/dl/compute/gcutil.tar.gz
+This plugin depends on the gcutil CLI utility available at: https://developers.google.com/compute/docs/gcutil
 
 This plugin is distributed as a Ruby Gem. To build and install it, run:
 
     gem build knife-google
     gem install knife-google
 
-Alternatively, the rake utility installs the gcutil CLI utility as part of installation
+Alternatively, the rake utility installs the latest gcutil CLI utility as part of installation
 
     rake install
 
